@@ -433,8 +433,12 @@ h2 {
 }
 
 .story_container_fluid {
+  /* background: linear-gradient(to top, rgba(255, 166, 0, 0.415), rgba(0, 0, 0, 0)),
+    url(assets/bg.png)); */
+    /* background-image: url("./assets/bg.png"); */
+    /* background-image: url(assets/bg.png); */
   background: linear-gradient(to top, rgba(255, 166, 0, 0.415), rgba(0, 0, 0, 0)),
-    url(assets/bg.png);
+  url("/assets/bg.png");
   background-size: contain;
   background-blend-mode: multiply;
   background-position: center;
