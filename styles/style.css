@@ -15,6 +15,7 @@
   --secondary-color-2: #5D58EF;
   --secondary-color-3: #95B226;
 }
+
 .primary-color-1 {
   color: var(--primary-color-1);
 }
@@ -139,7 +140,8 @@ h2 {
   align-items: center;
   padding-block: 10px;
 }
-.navbar_content{
+
+.navbar_content {
   min-width: 200px;
 }
 
@@ -160,13 +162,15 @@ h2 {
   font-weight: 600;
   /* transition: all 1s ease; */
 }
-.nav_items li:hover a{
+
+.nav_items li:hover a {
   font-size: 1.2rem;
   font-weight: 900;
   border-top: 0.1px solid #95B226;
-  border-bottom: 0.1px solid #95B226; 
+  border-bottom: 0.1px solid #95B226;
   box-shadow: inset 0 5px 12px rgba(158, 190, 32, 0.322);
 }
+
 .logo_div h3 {
   font-size: 2rem;
   font-weight: bold;
@@ -188,17 +192,23 @@ h2 {
   border-radius: clamp(0.5rem, 0.429rem + 0.36vw, 0.75rem);
   transition: all 0.5s ease;
 }
+
 .common_btn:hover {
   background-color: #01acfd;
-  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3); /* Shadow under the button */
-  transform: translateY(-2px); /* Slight upward movement */
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3);
+  /* Shadow under the button */
+  transform: translateY(-2px);
+  /* Slight upward movement */
 }
 
 .common_btn:active {
   background-color: #5D58EF;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Smaller shadow */
-  transform: translateY(0); /* Bring it back to its original position */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* Smaller shadow */
+  transform: translateY(0);
+  /* Bring it back to its original position */
 }
+
 .btn-bg-color-black {
   background-color: black;
 }
@@ -218,11 +228,13 @@ h2 {
   align-items: center;
   overflow: hidden;
 }
+
 .hero_img {
   width: 100%;
   height: auto;
   object-fit: contain;
 }
+
 .hero_left>* {
   padding: 10px;
 }
@@ -238,9 +250,10 @@ h2 {
 
 
 /* standard Card Section */
-.standard_heading{
+.standard_heading {
   padding-top: 25px;
 }
+
 .card_container {
   display: flex;
   flex-wrap: wrap;
@@ -281,25 +294,30 @@ h2 {
   z-index: -1;
   transition: all 0.3s ease-in;
 }
-.card:hover{
-  background-image: linear-gradient(to right,  #ffffff, #DEF5FF, #DEF5FF, #ffffff);
+
+.card:hover {
+  background-image: linear-gradient(to right, #ffffff, #DEF5FF, #DEF5FF, #ffffff);
   border-radius: 50%;
-  
+
 }
-.card:hover::after{
+
+.card:hover::after {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  box-shadow: 0 10px 12px rgba(34, 34, 34, 0.1); /* Shadow under the button */
-  
+  box-shadow: 0 10px 12px rgba(34, 34, 34, 0.1);
+  /* Shadow under the button */
+
 }
 
 .card_2 {
   background-image: linear-gradient(to bottom, #FFF4DC, #ffffff, #ffffff, #ffffff);
 }
+
 .card_2:hover {
   background-image: linear-gradient(to right, #ffffff, #FFF4DC, #FFF4DC, #ffffff);
 }
+
 .card_2::after {
   background-image: linear-gradient(to bottom, #FFF4DC, #999284);
 }
@@ -307,9 +325,11 @@ h2 {
 .card_3 {
   background-image: linear-gradient(to bottom, #F2E8FF, #ffffff, #ffffff, #ffffff);
 }
+
 .card_3:hover {
   background-image: linear-gradient(to right, #Ffffff, #F2E8FF, #F2E8FF, #ffffff);
 }
+
 .card_3::after {
   background-image: linear-gradient(to bottom, #F2E8FF, #918B99);
 }
@@ -322,7 +342,7 @@ h2 {
   transition: all 0.5s ease-in-out;
 }
 
-.card:hover img{
+.card:hover img {
   width: clamp(5.524rem, 3.499rem + 5.13vw, 8.112rem);
   height: clamp(5.524rem, 3.499rem + 5.13vw, 8.112rem);
   transition: all 0.5s ease-in-out;
@@ -381,7 +401,18 @@ h2 {
   background-color: orange;
   color: white;
 }
-.display_none_lg{
+
+/* story Section start*/
+.grid_container {
+  display: grid;
+  border: 1px solid red;
+  
+}
+
+/* story Section end*/
+
+
+.display_none_lg {
   display: none;
 }
 
@@ -391,36 +422,44 @@ h2 {
 
 
 @media screen and (max-width: 768px) {
-  .border_bottom_yellow{
+  .border_bottom_yellow {
     border-bottom: 1.5px solid orange;
   }
-  .hero_container{
+
+  .hero_container {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
-  .hero_left{
+
+  .hero_left {
     text-align: center;
   }
+
   .card {
     min-width: 300px;
     min-height: 300px;
     box-shadow: inset 0 0 17px rgba(0, 0, 0, 0.074);
   }
+
   .card::after {
     height: 100%;
     width: 100%;
   }
-  .common_p{
+
+  .common_p {
     font-size: 10.22px;
   }
+
   .common_a {
     font-size: 10.22px;
   }
-  .display_none{
+
+  .display_none {
     display: none;
   }
-  .display_none_lg{
+
+  .display_none_lg {
     display: block;
   }
 
