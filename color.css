@@ -1,0 +1,13 @@
+/* Logo 32 Bold 
+nav_a 20 bold orage,blue,sky,purple
+button_a 20 semibold White
+
+hero H1 56 Bold orange,black,blue,  */
+
+:root{
+    --clr-primary-blue: #01acfd;; /* main-theme color*/
+    --clr-primary-orange: orange; /* second main color*/
+    --clr-accent-purple: #5D58EF;
+    --clr-accent-sky: #05D4DF;
+    --clr-accent-green: #95B226;
+}
