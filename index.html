@@ -9,15 +9,17 @@
 </head>
 
 <body>
-    <header class="container_fluid border_bottom_yellow">
+    <header class="container_fluid header_container_fluid_bg border_bottom_yellow">
         <div class="container">
             <!-- .navbar>.logo>img^nav.nav_items>li*4^btn.contact_btn -->
             <div class="navbar_container">
                 <div class="navbar_content logo_div flex">
                     <div class="logo_img">
-                        <img src="assets/logo.png" alt="website-logo">
+                        <a href="#"><img src="assets/logo.png" alt="website-logo"></a>
                     </div>
-                    <h3 class="display_none">SCHOOL</h3>
+                    <a href="#">
+                        <h3 class="display_none">SCHOOL</h3>
+                    </a>
                 </div>
                 <div class="navbar_content display_none">
                     <nav class="nav_items flex">
@@ -37,9 +39,7 @@
         </div>
     </header>
 
-
-
-    <section class="container_fluid">
+    <section class="container_fluid hero_container_fluid_bg">
         <div class="container">
             <div class="hero_container">
                 <!-- .hero_left>h1.hero_heading+p.hero_p+btn.common_btn -->
@@ -63,6 +63,8 @@
             </div>
         </div>
     </section>
+
+    
 
     <section class="container_fluid">
         <div class="container">
@@ -101,23 +103,25 @@
                     </div>
                 </div>
             </div>
-            <div class="next_previous padding_bottom_20_80 display_none">
+            <div class="next_previous  display_none">
                 <a href="#" class="previous round">&#8249;</a>
                 <a href="#" class="next round">&#8250;</a>
             </div>
         </div>
     </section>
-    <section class="container_fluid">
-        <div class="containter">
+    <section class="container_fluid story_container_fluid">
+        <div class="container story_container_bg">
             <div>
-                <h2 class="standard_heading padding_top_20_80">Standard Curriculum</h2>
+                <h2 class="standard_heading">Standard Curriculum</h2>
             </div>
             <div class="grid_container">
                 <!-- .story.story_$*7>img.story_img+.story_content>.story_date+h4.story_heading -->
                 <div class="story story_1 display_none">
                     <img src="assets/story-1.png" alt="" class="story_img">
                     <div class="story_content">
-                        <div class="story_date"><p>November 19, 2019</p></div>
+                        <div class="story_date">
+                            <a class="story_date_1a">November 19, 2019</a>
+                        </div>
                         <h4 class="story_heading">A fun toddler coloring training on
                             classroom</h4>
                         <p class="story_1_p">Beautiful branding for changes by Never Now in Australia.
@@ -129,15 +133,19 @@
                 <div class="story story_2">
                     <img src="assets/story-2.png" alt="" class="story_img">
                     <div class="story_content">
-                        <div class="story_date"><p>November 19, 2019</p></div>
-                        <h4 class="story_heading">Find out if a school fits  
-                            family’s needs  </h4>
+                        <div class="story_date">
+                            <a>November 19, 2019</a>
+                        </div>
+                        <h4 class="story_heading">Find out if a school fits
+                            family’s needs </h4>
                     </div>
                 </div>
                 <div class="story story_3">
                     <img src="assets/story-3.png" alt="" class="story_img">
                     <div class="story_content">
-                        <div class="story_date"><p>November 19, 2019</p> </div>
+                        <div class="story_date">
+                            <a class="story_date_3a">November 19, 2019</a>
+                        </div>
                         <h4 class="story_heading">Summer math & literacy
                             centres for kids</h4>
                     </div>
@@ -145,7 +153,9 @@
                 <div class="story story_4">
                     <img src="assets/story-4.png" alt="" class="story_img">
                     <div class="story_content">
-                        <div class="story_date"><p>November 19, 2019</p></div>
+                        <div class="story_date">
+                            <a>November 19, 2019</a>
+                        </div>
                         <h4 class="story_heading">Classroom management
                             techniques for new tutors</h4>
                     </div>
@@ -153,7 +163,9 @@
                 <div class="story story_5">
                     <img src="assets/story-5.png" alt="" class="story_img">
                     <div class="story_content">
-                        <div class="story_date"><p>November 19, 2019</p></div>
+                        <div class="story_date">
+                            <a>November 19, 2019</a>
+                        </div>
                         <h4 class="story_heading">Conversation rhymes
                             improve kids listening </h4>
                     </div>
@@ -161,23 +173,69 @@
                 <div class="story story_6 display_none_lg">
                     <img src="assets/story-2.png" alt="" class="story_img">
                     <div class="story_content">
-                        <div class="story_date"><p>November 19, 2019</p></div>
-                        <h4 class="story_heading">Find out if a school fits  
-                            family’s needs  </h4>
+                        <div class="story_date">
+                            <a>November 19, 2019</a>
+                        </div>
+                        <h4 class="story_heading">Find out if a school fits
+                            family’s needs </h4>
                     </div>
                 </div>
                 <div class="story story_7 display_none_lg">
                     <img src="assets/story-3.png" alt="" class="story_img">
                     <div class="story_content">
-                        <div class="story_date"><p>November 19, 2019</p></div>
+                        <div class="story_date">
+                            <a class="story_date_3a">November 19, 2019</a>
+                        </div>
                         <h4 class="story_heading">Summer math & literacy
                             centres for kids</h4>
                     </div>
                 </div>
             </div>
+            <div class="view_all_btn_div">
+                <button class="common_btn btn-bg-color-black view_all_btn">View All</button>
+            </div>
+
         </div>
     </section>
-    <footer>
+
+    <footer class="container_fluid footer_container_fluid">
+        <div class="container">
+            <div class="footer_contents_container">
+                <div class="footer_contents footer_contents_left">
+                    <div class="footer_logo">
+                        <a href="#" id="footer_logo_a">
+                            <img src="assets/logo.png" alt="" id="footer_logo_img" height="80px" width="70px">
+                            <h3 id="footer_h3">kids <br>Education</h3>
+                        </a>
+                    </div>
+                    <div id="footer_p_div">
+                        <p >Pizza ipsum dolor meat lovers buffalo. Deep dolor roll melted bacon Bianca pan bacon pineapple Aussie. Mayo rib sauce Hawaiian meatball.</p>
+                    </div>
+                </div>
+                <div class="footer_contents footer_contents_middle">
+                    <div class="footer_nav">
+                        <h4 id="footer_h4">About School</h4>
+                        <div class="footer_nav_list">
+                            <li><a href="#" class="">Home</a></li>
+                            <li><a href="#" class="">About</a></li>
+                            <li><a href="#" class="">Facilities</a></li>
+                            <li><a href="#" class="">Admission</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_contents footer_contents_right">
+                    <div class="footer_social">
+                        <h4 id="footer_h4" >Keep in Touch</h4>
+                        <div class="social_icons">
+                            <img src="assets/fb.png" alt="facebook">
+                            <img src="assets/dribble.png" alt="">
+                            <img src="assets/twitter.png" alt="twitter">
+                            <img src="assets/google+.png" alt="Google_plus">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </footer>
 </body>
